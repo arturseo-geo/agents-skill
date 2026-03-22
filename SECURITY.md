@@ -8,7 +8,7 @@ This repository contains instructional content (Markdown files and code examples
 - **Patterns that could lead to unsafe agent behavior** (e.g., missing input validation, privilege escalation)
 - **Outdated security guidance** that no longer reflects best practices
 
-Please report it by opening a GitHub issue with the **Bug Report** template. Include:
+Please report it by emailing **artur@thegeolab.net** or by opening a GitHub issue with the **Bug Report** template. Include:
 - The specific file and section
 - A description of the security concern
 - A suggested fix if you have one
