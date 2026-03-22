@@ -3,12 +3,12 @@
 > **Also available as part of [claude-code-skills](https://github.com/arturseo-geo/claude-code-skills)** — a collection of 12 production-tested skills for Claude Code.
 
 > Built by **[Artur Ferreira](https://github.com/arturseo-geo)** @ **[The GEO Lab](https://thegeolab.net)**
-> [𝕏 @TheGEO_Lab](https://x.com/TheGEO_Lab) · [LinkedIn](https://linkedin.com/in/arturgeo) · [Reddit](https://www.reddit.com/user/Alternative_Teach_74/)
+> [X @TheGEO_Lab](https://x.com/TheGEO_Lab) · [LinkedIn](https://linkedin.com/in/arturgeo) · [Reddit](https://www.reddit.com/user/Alternative_Teach_74/)
 
 ![Licence](https://img.shields.io/badge/licence-MIT-green)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-skill-blueviolet)
 
-Design, build, and debug AI agent systems — multi-step reasoning loops, tool use, memory, planning, multi-agent orchestration, and autonomous workflows. Covers ReAct, Plan-and-Execute, reflection loops, MCP, LangChain, LangGraph, CrewAI, AutoGen, and more.
+Design, build, and debug AI agent systems — multi-step reasoning loops, tool use, memory, planning, multi-agent orchestration, and autonomous workflows. Covers ReAct, Plan-and-Execute, reflection loops, Tree of Thoughts, LATS, MCP, LangChain, LangGraph, CrewAI, AutoGen, Claude Agent SDK, and more.
 
 ## Install
 
@@ -18,7 +18,13 @@ git clone https://github.com/arturseo-geo/agents-skill.git ~/.claude/skills/agen
 
 ## File Structure
 
-- `SKILL.md` — Core skill instructions covering agent architectures, patterns, debugging, and orchestration frameworks
+- `SKILL.md` — Core skill instructions covering agent architectures, patterns, tool use, memory systems, structured outputs, error recovery, and orchestration frameworks
+- `references/patterns.md` — Deep dive into agent architecture patterns: ReAct, Plan-and-Execute, Reflection, Tree of Thoughts, LATS, and pattern selection guide
+- `references/tools.md` — Tool use patterns: MCP integration, function calling best practices, tool composition, structured outputs, and security
+- `references/multi-agent.md` — Multi-agent orchestration: handoff patterns, shared memory, framework comparison (Claude Agent SDK, LangGraph, CrewAI, AutoGen)
+- `references/evaluation.md` — Agent evaluation: testing patterns, LLM-as-judge, observability, cost tracking, and alerting
+- `CONTRIBUTING.md` — Contribution guidelines
+- `SECURITY.md` — Security policy
 
 ## Related Repos
 
